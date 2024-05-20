@@ -1,5 +1,5 @@
 {
-    "name": "Test7Skin/lastunits",
+    "name": "test7skin/lastunits",
     "description": "A Magento 2 module to display a 'last units' tag when product quantity is below 50.",
     "type": "magento2-module",
     "version": "1.0.0",
