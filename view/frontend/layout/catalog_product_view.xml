@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Adiciona o CSS para estilizar a label "Last Units" -->
+        <css src="Test7Skin_LastUnits::css/lastunits.css"/>
+    </head>
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Test7Skin\LastUnits\Block\LastUnits" name="lastunits.label" template="Test7Skin_LastUnits::product/lastunits-label.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
